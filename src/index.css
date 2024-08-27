@@ -4,4 +4,42 @@
   text-decoration: none;
   list-style: none;
   outline:none;
+  font-family:  Arial, sans-serif;
+}
+.main{
+  text-align: center;
+
+}
+.main-header{
+  width: 100%;
+  background: #1565c0;
+  color: #fff;
+  padding: 1.5em;
+}
+.product-list{
+  display: flex;
+  justify-content: center;
+}
+.product{
+  margin: 2em;
+  padding: 3em;
+  border-radius: 5px;
+  box-shadow: 0 0 25px 5px rgba(0,0,0,.07);
+}
+.btn{
+  background: #1976d2;
+  border: none;
+  border-radius: 6px;
+  outline: none;
+  color: #fff;
+  padding: .6em;
+  margin: 1em;
+}
+.cart{
+  padding: 3em;
+  margin :2% 30%;
+  border-radius: 5px;
+  box-shadow: 0 0 25px 5px rgba(0,0,0,.07);
+
+
 }
