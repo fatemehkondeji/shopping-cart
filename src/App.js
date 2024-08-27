@@ -1,9 +1,15 @@
 import React from 'react';
-
+import ProductList from './components/ProductList'
+import Cart from  './components/Cart'
 const App = () => {
     return (
-        <div>
-            <h2>hi</h2>
+        <div className='main'>
+            <header className='main-header'>
+                <h2> shopping cart</h2>
+
+            </header>
+            <ProductList />
+            <Cart/>
         </div>
     );
 };
